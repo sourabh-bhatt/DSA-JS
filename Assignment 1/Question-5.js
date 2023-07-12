@@ -10,7 +10,6 @@ function mergeSort(nums1, m, nums2, n) {
       nums1[k--] = nums2[j--];
     }
   }
-
   while (j >= 0) {
     nums1[k--] = nums2[j--];
   }
